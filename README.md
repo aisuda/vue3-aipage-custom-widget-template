@@ -44,7 +44,7 @@ $ npm run linkDebug
 $ npm run build2lib
 ```
 6. **package.json添加自定义组件信息，导入组件扩展包时需要**
-> package.json 中添加 aipage-widgets 字段，用于放置当前自定义组件信息，有这个aipage-widgets 字段才能被识别为amis组件扩展包。
+> package.json 中添加 amis-widgets 字段，用于放置当前自定义组件信息，有这个amis-widgets 字段才能被识别为自定义组件扩展包。
 ```bash
   ...
     "amis-widgets": [
