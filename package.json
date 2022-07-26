@@ -1,0 +1,100 @@
+{
+  "name": "vue3-aipage-custom-widget-template",
+  "version": "1.0.0",
+  "description": "aipage-editor H5自定义组件模板（vue3、react）",
+  "keywords": [
+    "自定义组件模板",
+    "vue3自定义组件模板",
+    "aipage-editor自定义组件"
+  ],
+  "author": "fex",
+  "license": "MIT",
+  "scripts": {
+    "dev": "amis dev",
+    "preview": "amis preview",
+    "linkDebug": "amis linkDebug",
+    "build": "amis build",
+    "build2lib": "amis build2lib",
+    "build2esm": "amis build2esm",
+    "format": "prettier --write \"src/**/**/*.{js,jsx,ts,tsx,vue,scss,json}\""
+  },
+  "files": [
+    "dist/*"
+  ],
+  "framework": "mulStack",
+  "amis-widgets": [
+    {
+      "name": "react-info-card",
+      "framework": "react",
+      "usage": "renderer",
+      "type": "react-info-card",
+      "entry": "/dist/reactInfoCard.umd",
+      "files": [
+        "/dist/reactInfoCard.css"
+      ],
+      "editorPlugin": {
+        "name": "react-info-card-plugin",
+        "description": "信息展示卡片",
+        "pluginEntry": "/dist/reactInfoCardPlugin.umd",
+        "tag": [
+          "展示"
+        ],
+        "sort": 100
+      }
+    },
+    {
+      "name": "vue-info-card",
+      "framework": "vue3",
+      "usage": "renderer",
+      "type": "vue-info-card",
+      "entry": "/dist/infoCard.umd",
+      "files": [
+        "/dist/infoCard.css"
+      ],
+      "editorPlugin": {
+        "name": "vue-info-card-plugin",
+        "description": "自定义组件vue-text",
+        "pluginEntry": "/dist/infoCardPlugin.umd",
+        "tag": [
+          "展示"
+        ],
+        "sort": 100
+      }
+    }
+  ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "lint-staged": {
+    "src/**/**/*.{js,jsx,ts,tsx,vue,scss,json}": [
+      "prettier --write"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git@github.com:aisuda/vue3-aipage-custom-widget-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aisuda/vue3-aipage-custom-widget-template/issues"
+  },
+  "dependencies": {
+    "vue3-aipage-widget": "^1.0.2",
+    "react": "^16.8.6",
+    "vue": "^3.2.33"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^9.1.1",
+    "amis-widget-cli": "^2.0.5-vue3-beta.1",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.9",
+    "prettier": "^2.0.5"
+  },
+  "engines": {
+    "node": ">= 10.13.0",
+    "npm": ">= 6.4.1"
+  }
+}
