@@ -52,27 +52,6 @@ module.exports = {
     closeHotReload: false, // 是否关闭热更新
     autoOpenBrowser: true,
   },
-  dev: {
-    entry: { // 调试模式的入口
-      index: [
-        './src/react-widget/index.js',
-        './src/react-widget/plugin.jsx',
-        './src/vue-widget/index.js',
-        './src/vue-widget/plugin.jsx',
-      ],
-    },
-    // 用于开启本地调试模式的相关配置信息
-    NODE_ENV: 'development',
-    ignoreNodeModules: false, // 打包时是否忽略 node_modules
-    port: 80,
-    autoOpenBrowser: true,
-    assetsPublicPath: '/', // 设置静态资源的引用路径（根域名+路径）
-    assetsSubDirectory: '',
-    hostname: 'localhost',
-    cssSourceMap: false,
-    closeHotReload: false, // 是否关闭热更新
-    closeEditorClient: true, // 是否关闭自动注入amis-editor
-  },
   linkDebug: {
     entry: { // 外链调试（爱速搭中预览本地自定义组件）
       index: [
