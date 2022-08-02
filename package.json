@@ -12,7 +12,6 @@
   "scripts": {
     "preview": "amis preview",
     "linkDebug": "amis linkDebug",
-    "build": "amis build",
     "build2lib": "amis build2lib",
     "format": "prettier --write \"src/**/**/*.{js,jsx,ts,tsx,vue,scss,json}\""
   },
@@ -84,7 +83,7 @@
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^9.1.1",
-    "amis-widget-cli": "^2.0.5-vue3-beta.1",
+    "amis-widget-cli": "^2.0.5-vue3-beta.2",
     "husky": "^4.2.5",
     "lint-staged": "^10.2.9",
     "prettier": "^2.0.5"
