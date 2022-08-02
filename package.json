@@ -21,16 +21,14 @@
   "framework": "mulStack",
   "aipage-widgets": [
     {
-      "name": "react-info-card",
-      "framework": "react",
       "type": "react-info-card",
+      "framework": "react",
+      "description": "信息展示卡片",
       "entry": "/dist/reactInfoCard.umd",
       "files": [
         "/dist/reactInfoCard.css"
       ],
       "editorPlugin": {
-        "name": "react-info-card-plugin",
-        "description": "信息展示卡片",
         "pluginEntry": "/dist/reactInfoCardPlugin.umd",
         "tag": [
           "自定义组件"
