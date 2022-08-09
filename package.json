@@ -38,16 +38,14 @@
       }
     },
     {
-      "name": "vue-info-card",
-      "framework": "vue3",
       "type": "vue-info-card",
+      "framework": "vue3",
+      "description": "自定义组件vue-text",
       "entry": "/dist/infoCard.umd",
       "files": [
         "/dist/infoCard.css"
       ],
       "editorPlugin": {
-        "name": "vue-info-card-plugin",
-        "description": "自定义组件vue-text",
         "pluginEntry": "/dist/infoCardPlugin.umd",
         "tag": [
           "自定义组件"
