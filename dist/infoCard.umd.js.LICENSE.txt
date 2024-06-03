@@ -1,8 +1,8 @@
 /*!
- * vue3-aipage-custom-widget-template v1.0.1
+ * vue3-aipage-custom-widget-template v1.1.0
  * author: fex
  * build tool: AKFun
- * build time: Thu Aug 11 2022 17:20:51 GMT+0800 (中国标准时间)
+ * build time: Mon Jun 03 2024 19:39:00 GMT+0800 (中国标准时间)
  * build tool info: https://github.com/wibetter/akfun
  */
 
@@ -16,6 +16,8 @@
 
 /*! -!../../node_modules/vue-style-loader/index.js??clonedRuleSet-11.use[0]!../../node_modules/mini-css-extract-plugin/dist/loader.js??clonedRuleSet-11.use[1]!../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-11.use[2]!../../node_modules/vue-loader/dist/stylePostLoader.js!../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-11.use[3]!../../node_modules/sass-loader/dist/cjs.js??clonedRuleSet-11.use[4]!../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!../../node_modules/params-replace-loader/index.js??clonedRuleSet-7!./info-card.vue?vue&type=style&index=0&id=68141a04&lang=scss&scoped=true */
 
+/*! ../../node_modules/vue-loader/dist/exportHelper.js */
+
 /*! ./info-card */
 
 /*! ./info-card.vue?vue&type=script&lang=js */
@@ -25,8 +27,6 @@
 /*! ./info-card.vue?vue&type=template&id=68141a04&scoped=true */
 
 /*! ./listToStyles */
-
-/*! ./node_modules/vue-loader/dist/exportHelper.js */
 
 /*! vue */
 
